@@ -1,0 +1,449 @@
+body {
+  background: #e2e2e2;
+  margin: 0;
+  font-family: 'Calibri';
+}
+
+.navbar {
+  background: #bed3f0;
+  padding: 1em;
+  place-content: space-between;
+  position: unset;
+}
+
+.navbar .logo {
+  border-radius: 3em;
+  width: 300px;
+  height: 150px;
+}
+
+.navbar .primary-nav .sg {
+  background: #0a4ca8;
+  color: white;
+  text-decoration: none;
+  font-size: 1.4em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.navbar .primary-nav a {
+  padding: 0.8em 0.6em;
+}
+
+.navbar .primary-nav a:hover {
+  background-color: blue;
+}
+
+.navbar .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 300px auto;
+      grid-template-columns: 300px auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 4em 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+li {
+  margin-right: 4em;
+  margin-left: 4em;
+}
+
+.hero .container {
+  background-color: #e2e2e2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.hero .container .right-col .logo2 {
+  float: right;
+  width: 650px;
+  height: 350px;
+}
+
+.hero .container .left-col .car-parts {
+  border-radius: 3em;
+  float: left;
+  width: 500px;
+  height: 350px;
+}
+
+.hero .center-col {
+  background-color: #e2e2e2;
+  display: block;
+  text-align: center;
+}
+
+.hero .center-col h1 {
+  margin: 0px;
+  font-size: 2em;
+  border-style: solid;
+  font-family: 'Gill Sans';
+}
+
+.company-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #e2e2e2;
+}
+
+.company-description .left-col-cd {
+  margin-left: 10px;
+}
+
+.company-description .right-col-cd {
+  margin-top: 2em;
+  margin-left: 2%;
+}
+
+.company-description .right-col-cd p {
+  float: right;
+  font-size: 1.2em;
+  font-family: 'Gill Sans';
+}
+
+.contact .container {
+  background-color: #e2e2e2;
+  display: inline;
+}
+
+.contact .container .contact-left {
+  padding: 2em 2em;
+  margin-right: 7em;
+  margin-left: 10px;
+  font-size: 1.5em;
+  float: left;
+  border: solid;
+}
+
+.contact .container .contact-right {
+  margin-top: 2em;
+  margin-left: 5em;
+}
+
+.login-hero {
+  display: block;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+}
+
+.login-hero .login-sect {
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  width: 280px;
+}
+
+.login-hero .login-sect h1 {
+  font-size: 40px;
+  border-bottom: 6px solid #0a4ca8;
+  margin-bottom: 40px;
+}
+
+.login-hero .login-sect .login-form {
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #0a4ca8;
+}
+
+.login-hero .login-sect .login-form img {
+  width: 20px;
+  height: 20px;
+  padding: 0px 10px;
+}
+
+.login-hero .login-sect .login-form .input-box {
+  width: 70%;
+  height: 30px;
+}
+
+.login-hero .login-sect .btn {
+  width: 100%;
+  border: 2px solid #0a4ca8;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.login-hero .login-sect .register-link {
+  font-size: 20px;
+  color: #0a4ca8;
+}
+
+.login-hero .login-sect h2 {
+  text-align: center;
+}
+
+.login-hero .login-sect .check-box {
+  width: 50px;
+  height: 50px;
+}
+
+.login-hero .login-sect .regulamin-label {
+  display: inline-block;
+  width: 200px;
+}
+
+.login-hero .login-sect h3 {
+  color: #e2e2e2;
+}
+
+.offers-hero {
+  clear: both;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.offers-hero .offers-sect {
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+
+.offers-hero .offers-sect h1 {
+  font-size: 32px;
+  font-weight: bold;
+  width: 250px;
+  top: 50%;
+  right: 50%;
+  border-bottom: 3px solid blue;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.offers-hero .offers-sect .product-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.offers-hero .offers-sect .product-container .product-box {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  min-width: 200px;
+  margin-bottom: 50px;
+  border: 2px solid #0a4ca8;
+}
+
+.offers-hero .offers-sect .product-container .product-box .product-img img {
+  width: 250px;
+  height: 250px;
+  width: 100%;
+  border-bottom: 3px solid blue;
+}
+
+.offers-hero .offers-sect .product-container .product-box .product-details .p-name {
+  text-decoration: none;
+  color: black;
+  font-size: 1.6em;
+  font-weight: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.offers-hero .offers-sect .product-container .product-box .product-details .p-description {
+  display: block;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.user-panel {
+  clear: both;
+}
+
+.user-panel h1 {
+  text-align: left;
+  margin: auto;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+.user-panel .user-panel-menu {
+  display: block;
+}
+
+.user-panel .user-panel-menu li {
+  margin: 2em;
+  margin-top: 0;
+  width: 300px;
+}
+
+.user-panel .user-panel-menu li .button {
+  background-color: #0a4ca8;
+  color: white;
+  padding: 0.8em;
+  cursor: pointer;
+}
+
+.user-panel .user-panel-menu li .button:hover {
+  background-color: blue;
+}
+
+.user-panel .user-panel-menu li .form-content {
+  display: none;
+  position: absolute;
+  top: 70%;
+  left: 40%;
+}
+
+.user-panel .user-panel-menu li .form-content .login-form {
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #0a4ca8;
+}
+
+.user-panel .user-panel-menu li .form-content .login-form img {
+  width: 20px;
+  height: 20px;
+  padding: 0px 10px;
+}
+
+.user-panel .user-panel-menu li .form-content .login-form .input-box {
+  width: 70%;
+  height: 30px;
+}
+
+.user-panel .dropdown {
+  position: absolute;
+  top: 70%;
+  left: 90%;
+}
+
+.user-panel .dropdown .button {
+  background-color: #0a4ca8;
+  color: white;
+  padding: 0.8em;
+  cursor: pointer;
+  border: none;
+}
+
+.user-panel .dropdown .button:hover {
+  background-color: blue;
+}
+
+.user-panel .dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.user-panel .dropdown .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.user-panel .dropdown .dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.user-panel .dropdown .show {
+  display: block;
+}
+
+.current_product {
+  clear: both;
+  display: inline-block;
+}
+
+.current_product .product_container {
+  background-color: #eeecec;
+  float: left;
+  margin-top: 50px;
+  width: 1400px;
+  margin-left: 180px;
+  border: 2px solid #e2e2e2;
+  border-radius: 1em;
+}
+
+.current_product .product_container img {
+  width: 220px;
+  height: 250px;
+  float: left;
+  border-radius: 1em;
+}
+
+.current_product .product_container .product_desc {
+  clear: both;
+  display: inline-block;
+  max-width: 60%;
+}
+
+.current_product .product_container .product_desc .product_name {
+  font-size: 40px;
+  float: left;
+  margin: auto;
+  text-align: center;
+  padding-left: 25%;
+}
+
+.current_product .product_container .product_desc .product_tag {
+  clear: both;
+  padding-left: 15px;
+  float: left;
+}
+
+.current_product .product_container .product_desc .product_price {
+  clear: both;
+  display: block;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.current_product .product_container .product_desc .product_description {
+  clear: both;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 15px;
+}
+/*# sourceMappingURL=main.css.map */
